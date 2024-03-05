@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html body{
+    height: 100%;
+    width: 100%;
+}
+
+body{
+  transition: 0.5s;
+}
+.main{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+.container{
+    padding: 20px;
+    height: 15rem;
+    width: 30rem;
+    background-color: wheat;
+    border-radius: 10px;  
+   text-align: center; 
+   font-size: 35px;
+  
+}
+
+
+button{
+    background-color: black;
+    color: beige;
+    border: none;
+    border-radius: 5px;
+    display: block;
+    font-size: 50px;
+    font-weight: 500;
+    width: 100%;
+    margin-top: 30px;
+    
+}
+
